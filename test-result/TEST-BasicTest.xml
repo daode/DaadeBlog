@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="1" time="0.165" errors="0" skipped="0" tests="6" name="BasicTest">
+  <testcase classname="BasicTest" name="createAndRetrieveUser" time="0.005">
+      </testcase>
+  <testcase classname="BasicTest" name="tryConnectAsUser" time="0.006">
+      </testcase>
+  <testcase classname="BasicTest" name="createPost" time="0.015">
+      </testcase>
+  <testcase classname="BasicTest" name="postComments" time="0.009">
+      </testcase>
+  <testcase classname="BasicTest" name="useTheCommentsRelation" time="0.015">
+      </testcase>
+  <testcase classname="BasicTest" name="fullTest" time="0.097">
+      </testcase>
+  <testcase classname="BasicTest" name="testTags" time="0.018">
+                  <failure type="" message="Failure, expected:&lt;[{tag=[Red, pound=2}, {tag=Blue, pound=1}, {tag=G]reen, pound=1}]&gt; but was:&lt;[{tag=[red, pound=2}, {tag=blue, pound=1}, {tag=g]reen, pound=1}]&gt;">
+        <![CDATA[
+          In /test/BasicTest.java, line 216
+          
+                  	assertEquals( :
+          
+        ]]>
+        </failure>
+        }
+                  </testcase>
+</testsuite>
